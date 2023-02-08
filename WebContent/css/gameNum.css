@@ -1,0 +1,37 @@
+@charset "UTF-8";
+body{
+	background-color:#87CEEB;
+	height: 100vh;
+}
+p{
+	size: 5px;
+}
+.line-bc {
+  padding: 20px 10px;
+  
+  margin: 15px auto;
+  text-align: right;
+  font-size: 15px;
+  background: #87CEEB;
+  height: 100vh;
+}
+
+@media screen and (max-width: 480px){
+	body{
+	background-color:#87CEEB;
+	height: 100vh;
+}
+p{
+	size: 5px;
+}
+.line-bc {
+  padding: 20px 10px;
+  max-width: 480px;
+  margin: 15px auto;
+  text-align: right;
+  font-size: 15px;
+  background: #87CEEB;
+  height: 100vh;
+}
+
+	}
