@@ -16,9 +16,9 @@ import javax.sound.sampled.UnsupportedAudioFileException;
  */
 public class Audio {
 
-	File gamePath = new File("/Users/yoshidayasuko/workspace2/Treasure10/src/sample.wav");
-	File collectPath = new File("/pleiades/workspace/Treasure10/src/poka.wav");	
-	File unCollectPath = new File("/pleiades/workspace/Treasure10/src/buin.wav");
+	File gamePath = new File("sample.wav");
+	File collectPath = new File("poka.wav");	
+	File unCollectPath = new File("buin.wav");
 	
 	public void audioGame() throws InterruptedException {
 		
